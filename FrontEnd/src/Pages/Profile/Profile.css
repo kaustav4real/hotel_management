@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.mainProfileContainer{
+    position:relative;
+    top:2rem;
+}
+
+.profileEmail{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+
+.emptyBottomDiv{
+    height:200px;
+    background-color: white;
+    width: 100%;
+}

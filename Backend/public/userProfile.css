@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.profileContainer{
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin-left: 19px;
+    top: 6rem;
+}
+
+.profilePageImage{
+    height: 40px;
+    border-radius: 100%;
+}
+
+.profilePageUserName{
+    font-family: 'Montserrat', sans-serif;
+    font-size:22px;
+    margin-left: 10px;
+}
+
+.firstHR{
+    border-bottom: none;
+    position: relative;
+    top: 7rem;
+}
+
+.profilePageLogoutForm{
+    position: relative;
+    top: 9rem;
+}
+
+.logoutButton{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    font-size: 17px;
+    padding: 7px;
+    margin-left: 19px;
+}
+
+.logoutButtonIcon{
+    margin-left: 19px;
+}

@@ -1,0 +1,30 @@
+.hostSignUpMainDiv{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 9rem;
+}
+
+.hostSignUpForm{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 20px;
+
+}
+
+.hostNameInput, .hostAddressInput, .hostPriceInput, .hostDescriptionInput{
+    display: block;
+    margin-bottom: 1rem;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.hostSignUpSubmitForm{
+    height: 57px;
+    font-size: 21px;
+    color: white;
+    background-color: #26d126;
+    font-weight: bolder;
+    border: none;
+}

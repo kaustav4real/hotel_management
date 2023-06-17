@@ -1,0 +1,43 @@
+.mobileMenuContainer{
+    align-items: center;
+    background-color: white;
+    bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    height: 46px;
+    justify-content: space-around;
+    left: 0;
+    padding: 12px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+
+.menuIconsButton{
+    background-color: white;
+    border: none;
+    height: min-content;
+}
+
+.menuIconsLinks{
+    text-decoration: none;
+}
+
+.menuIcons{
+    color: gray;
+    font-size: 20px;
+}
+
+.profilePicture{
+    border-radius: 100%;
+    height: 24px;
+}
+
+.displayItem{
+    display: block ;
+}
+
+.hideItem{
+    display: none;
+}
+

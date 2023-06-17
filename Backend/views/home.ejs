@@ -1,0 +1,38 @@
+<%- include ('partials/header.ejs') %>
+
+<%- include('partials/mobile-menu.ejs') %>
+
+</body>
+
+<script>
+  //SCRIPT FOR SCROLLING THE IMAGE
+
+  let gymImage = document.getElementById('gymImageId');
+  let shift = gymImage.clientWidth;
+  const ScrollContainerToLeft = (divID) => {
+    const element = document.getElementById(divID);
+    element.scrollLeft += shift;
+  }
+
+  const ScrollContainerToRight = (divID) => {
+    const element = document.getElementById(divID);
+    element.scrollLeft -= shift;
+  }
+
+
+
+
+  //SCRIPT FOR DISPLAYING THE BUTTONS
+
+  const displayButton = (id) => {
+    document.getElementById(`SR${id}`).classList.add('displayButtons');
+    document.getElementById(`SL${id}`).classList.add('displayButtons');
+  }
+
+  const hideButton = (id) => {
+    document.getElementById(`SR${id}`).classList.remove('displayButtons');
+    document.getElementById(`SL${id}`).classList.remove('displayButtons');
+  }
+</script>
+
+</html>

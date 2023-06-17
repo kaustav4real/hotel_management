@@ -1,0 +1,18 @@
+<%- include ('partials/header.ejs') %>
+
+<div class="profileContainer">
+    <img src="<%=imageSource%>" alt="" class="profilePageImage">
+    <p class="profilePageUserName"><%=userName%></p>
+</div>
+
+<hr class="firstHR">
+
+<form action="/hostSignUp" method="get" style="position:relative;top:8rem;"> 
+    <button type="submit">Sign Up as a Host</button>
+</form>
+
+<form action="/logout" method="post" class="profilePageLogoutForm">
+    <button type="submit" class="logoutButton">Logout<i class="bi bi-box-arrow-left logoutButtonIcon"></i></button>
+</form>
+
+<%- include('partials/mobile-menu.ejs') %>

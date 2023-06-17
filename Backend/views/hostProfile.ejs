@@ -1,0 +1,16 @@
+<%- include ('partials/header.ejs') %>
+
+    <form id="imageUploadForm" action='/api/uploadFile' enctype='multipart/form-data' method="post"
+        style="display:flex;align-items: center;" runat="server">
+
+        <input accept="image/*" type="file" id="myFile" name="myFile" style="display: none;">
+        <div style="display: flex;" class="submitButtonContainer">
+            <label for="myFile" class="imageUploadContainer">
+                <i id="imageUpload" class="bi bi-cloud-arrow-up-fill"></i>
+            </label>
+            <button id="submitButtonID" type="submit" class="submitButton">Submit</button>
+        </div>
+
+    </form>
+
+    <%- include('partials/mobile-menu.ejs') %>

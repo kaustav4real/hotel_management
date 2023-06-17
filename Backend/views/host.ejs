@@ -1,0 +1,19 @@
+<%- include ('partials/header.ejs') %>
+<div class="hostSignUpMainDiv">
+    <form method="post" action="/api/hostSetup" class="hostSignUpForm">
+        <input autocomplete="off" required="true" placeholder="Name of the gym" type="text" name="gymName" class="hostNameInput">
+        <input autocomplete="off" required="true" placeholder="Address" type="text" name="address" class="hostAddressInput">
+        <input autocomplete="off" required="true" placeholder="Price per session"  type="text" name="price" class="hostPriceInput">
+        <input autocomplete="off" required="true" placeholder ="Description of the gym" type="text" name="description" class="hostDescriptionInput"> 
+        <input autocomplete="off" type="submit" class="hostSignUpSubmitForm">
+    </form>
+</div>
+<%- include('partials/mobile-menu.ejs') %>
+
+
+
+    
+<!--     <form method="post" action='/api/uploadFile' enctype='multipart/form-data' runat="server">
+        <input accept="image/*" type="file" id="myFile" name="myFile">
+        <input type="submit">
+    </form> -->
